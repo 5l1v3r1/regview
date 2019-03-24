@@ -1,0 +1,205 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Türkiye
+Lang|AuthorName=Serdar Doðan
+Lang|AuthorMail=serdardogan.74@gmail.com
+Lang|AuthorSite=http://www.serdardogan.net
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Tamam
+General|btnCancel=Vazgeç
+
+General|FilterAll=All files (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Kayýt dosyalarý (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Default web browser not found
+General|MsgNoStdBrowserText=The default web browser can´t started!
+General|MsgNoStdMailerTitle=Default mail client not found
+General|MsgNoStdMailerText=The default mail client can´t started!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=%s1% Hakkýnda
+
+Info|lblDescription=Windows Kayýt Defteri dosyalarý için Görüntüleyici
+Info|lblVersion=Versiyon %s1%
+Info|lblRights=Her hakký saklýdýr.
+Info|lblHome=Anasayfa:
+Info|lblHomePage=Visit the authors website
+Info|lblMail=E-mail:
+Info|lblMailAddr=Send an e-mail to the author
+
+Info|grpLang=Türkçeleþtiren
+Info|lblLangAuthor=Adý Soyadý:
+Info|lblLangHomePage=Visit the translators website
+Info|lblLangMailAddr=Send an e-mail to the translator
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Dil
+
+Main|mnuFile=&Dosya
+Main|mnuFileOpen=&Registry Dosyasý Aç...
+Main|mnuFileSearch=&Bul...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Dýþa Ver...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=Ç&ýkýþ
+Main|mnuExtras=E&kstra
+Main|mnuHelp=&Yardým
+Main|mnuHelpWebsite=Web Sitesine &Git...
+Main|mnuHelpEMail=Yapýmcýya E-&Mail Gönder...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Baðýþ...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Hakkýnda...
+
+Main|lvRegName=Ad
+Main|lvRegType=Tür
+Main|lvRegLength=Uzunluk
+Main|lvRegValue=Veri
+
+Main|tabData=Veri görünümü
+
+Main|vleDataType=Tür
+Main|vleDataValue=Deðer
+
+Main|tabSearch=Arama sonuçlarý
+
+Main|lvSearchPath=Yol
+Main|lvSearchValue=Deðer
+
+Main|pmnuText=&Text
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Deðeri Kopyala
+
+Main|pmnuDataCopyAs=&Deðeri þu þekilde kopyala
+Main|pmnuDataCopyOriginal=&Original data
+Main|pmnuDataCopyName=Adý kopyala
+Main|pmnuDataSave=&Orjinal dayatý kaydet...
+
+Main|pmnuHexEdCopyAs=&Seçimi þu þekilde kopyala
+Main|pmnuHexEdCopyAllAs=&Hepsini þu þekilde kopyala
+Main|pmnuHexEdSave=&Seçimi kaydet...
+Main|pmnuHexEdSaveAll=&Hepsini kaydet...
+Main|pmnuHexEdSelAll=Hepsini Seç all
+
+Main|pmnuNavPathCopy=Yolu &kopyala
+Main|pmnuNavFullPathCopy=Bütün &yolu kopyala
+Main|pmnuNavDirNameCopy=Anahtar adýný kopyala
+Main|pmnuNavModTimeCopy=Deðiþiklik zamanýný kopyala
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Dýþa aktar...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Load key %s1% of %s2%
+Main|sbMainLoadVal=Load value %s1% of %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Date
+Main|vleDataDosTime=DOS Time
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Datayý kaydet
+Main|DlgSaveSelTitle=Seçimi kaydet
+
+Main|DlgSaveOrigErrTitle=Datayý kaydet
+Main|DlgSaveOrigErrText=Veriler þu þekilde kaydedilemez "%s1%".
+Main|DlgSaveSelErrTitle=Seçimi kaydet
+Main|DlgSaveSelErrText=Veriler þu þekilde kaydedilemez "%s1%".
+
+DataFiles|MsgNotUniqueTitle=Dosya benzersiz deðil
+DataFiles|MsgNotUniqueText="%s1%"  dosyalarý iki kez yüklenemiyor.%w% Dosyalarýn benzersiz bir adý olmalýdýr.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Seçili kayýt dosyasýný dýþa aktar
+Main|DlgExportReadErrTitle=Seçili kayýt dosyasýný dýþa aktar
+Main|DlgExportReadErrText=Veriler toplanamaz.
+Main|DlgExportWriteErrTitle=Seçili kayýt dosyasýný dýþa aktar
+Main|DlgExportWriteErrText=Veriler þu þekilde kaydedilemez "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Registry dosyalarýný aç
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Open "SYSTEM" file...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Open "SOFTWARE" file...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Open "SAM" file...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Open "NTUSER.DAT" file...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=Open "SECURITY" file...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=Open "DEFAULT" file...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Open "USERDIFF" file...
+
+DataFiles|btnReset=Sýfýrla
+
+DataFiles|dlgOpenSYSTEM=Open SYSTEM file
+DataFiles|dlgOpenSOFTWARE=Open SOFTWARE file
+DataFiles|dlgOpenSAM=Open SAM file
+DataFiles|dlgOpenNTUSER=Open NTUSER.DAT file
+DataFiles|dlgOpenSECURITY=Open SECURITY file
+DataFiles|dlgOpenDEFAULT=Open DEFAULT file
+DataFiles|dlgOpenUSERDIFF=Open USERDIFF file
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Bul
+
+Search|lblSearch=Arama Terimi:
+Search|grpSearchIn=Araþtýr
+Search|chkKeyNames=Anahtar ismi
+Search|chkValueNames=Deðer ismi
+Search|chkValues=Deðer verisi
+Search|grpOptions=Seçenekler
+Search|chkWhole=Tüm terimi eþleþtir
+Search|chkCaseSensitive=Harfe duyarlý
